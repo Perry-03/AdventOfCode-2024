@@ -1,3 +1,5 @@
+package day01;
+
 import java.io.File;
 import java.util.*;
 
@@ -6,7 +8,7 @@ public class Part1 {
         int totalDistance = 0;
         List<Integer> fst = new ArrayList<>();
         List<Integer> snd = new ArrayList<>();
-        File input = new File("Day01/input.txt");
+        File input = new File("Day01/day01/input.txt");
 
         try (Scanner sc = new Scanner(input)) {
             while (sc.hasNextLine()) {

@@ -1,3 +1,5 @@
+package day01;
+
 import java.io.File;
 import java.util.*;
 
@@ -7,7 +9,7 @@ public class Part2 {
         Map<String, Integer> mem = new HashMap<>();
         List<String> fst = new ArrayList<>();
 
-        File input = new File("Day01/input.txt");
+        File input = new File("Day01/day01/input.txt");
 
         try (Scanner sc = new Scanner(input)) {
             while (sc.hasNextLine()) {
